@@ -473,6 +473,10 @@ body {
   color: #f4f4fd;
 }
 
+.footer-media {
+  margin-right: 80px;
+}
+
 .social-networks-title {
   font-family: Roboto;
   font-size: 16px;
