@@ -527,9 +527,29 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
-
   background-color: #fcfcfc;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  padding: 0;
+  line-height: 0;
+  fill: #2e2f42;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  fill: #ffffff;
 }
