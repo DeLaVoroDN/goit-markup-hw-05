@@ -457,7 +457,7 @@
 
     <!-- ! BACKDROP -->
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button" aria-label="model close button">
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -472,7 +472,7 @@
               <input
                 class="rewiew-form-field"
                 type="text"
-                name="user_name"
+                name="user-name"
                 id="user-name"
                 required
                 pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє']+"
@@ -519,7 +519,7 @@
             <label class="rewiew-form-field-label" for="user-comment">Comment</label>
             <textarea
               class="rewiew-form-message"
-              name="user_comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
@@ -528,12 +528,12 @@
             <input
               class="rewiew-form-checkbox visually-hidden"
               type="checkbox"
-              name="user_policy"
-              id="user-policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="rewiew-form-checkbox-label" for="user-policy">
+            <label class="rewiew-form-checkbox-label" for="user-privacy">
               <span class="rewiew-form-own-checkbox">
                 <svg class="rewiew-form-own-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
